@@ -1,0 +1,21 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "rust:recipe_keycard_reset"
+    },
+    "tags": [ "rust_workbench" ],
+    "ingredients": [
+      {
+        "item": "rust:keycard"
+      }
+    ],
+    "unlock": [
+      { "item": "rust:keycard" }
+    ],
+    "result": {
+      "item": "rust:blank_keycard",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "rust.door_open": {
+      "category": "block",
+      "sounds": [
+        "sounds/door_open"
+      ]
+    },
+    "rust.door_close": {
+      "category": "block",
+      "sounds": [
+        "sounds/door_close"
+      ]
+    }
+  }
+}
