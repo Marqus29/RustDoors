@@ -22,13 +22,24 @@
 					"cubes": [
 						{
 							"origin": [-8, 0, 6],
-							"size": [16, 16, 2],
+							"size": [15, 16, 1],
+							"material_instance": "glass",
 							"uv": {
-								"north": {"uv": [56, 8], "uv_size": [-48, 48]},
-								"east": {"uv": [0, 0], "uv_size": [8, 64]},
+								"north": {"uv": [8, 8], "uv_size": [48, 48]},
+								"east": {"uv": [0, 0], "uv_size": [0, 0]},
 								"south": {"uv": [8, 8], "uv_size": [48, 48]},
+								"down": {"uv": [8, 0], "uv_size": [48, 8], "uv_rotation": 270}
+							}
+						},
+						{
+							"origin": [7.005, 0, 5],
+							"size": [1, 16, 3],
+							"material_instance": "left_frame",
+							"uv": {
+								"north": {"uv": [8, 5], "uv_size": [-8, 48]},
+								"east": {"uv": [0, 0], "uv_size": [8, 64]},
+								"south": {"uv": [0, 8], "uv_size": [8, 48]},
 								"west": {"uv": [56, 0], "uv_size": [8, 64]},
-								"up": {"uv": [8, 56], "uv_size": [48, 8], "uv_rotation": 270},
 								"down": {"uv": [8, 0], "uv_size": [48, 8], "uv_rotation": 270}
 							}
 						}
