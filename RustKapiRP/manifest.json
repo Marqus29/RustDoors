@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+  "name": "Rust Door Textures",
+  "description": "Rust tarzi zirhli kapi dokulari",
+  "uuid": "07e0023f-aa94-4c7f-9bd1-c13de7db29bd",
+  "version": [1, 0, 4],
+  "min_engine_version": [1, 20, 50]
+},
+"modules": [
+  {
+    "type": "resources",
+    "uuid": "bc5b61e3-ff55-4fe2-ba21-ae15d547ff03",
+    "version": [1, 0, 4]
+  }
+]
+}

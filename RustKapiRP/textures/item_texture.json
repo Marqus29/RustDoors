@@ -1,0 +1,30 @@
+{
+  "resource_pack_name": "rust_bunker",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "keycard": {
+      "textures": "textures/items/keycard"
+    },
+    "blank_keycard": {
+      "textures": "textures/items/blank_keycard"
+    },
+	"bunker_door_copper_item": {
+      "textures": "textures/items/bunker_door_copper_item"
+    },
+	"bunker_door_sheet_item": {
+      "textures": "textures/items/bunker_door_sheet_item"
+    },
+	"bunker_door_glass_item": {
+      "textures": "textures/items/bunker_door_glass_item"
+    },
+	"bunker_door_jail_item": {
+      "textures": "textures/items/bunker_door_jail_item"
+    },
+	"bunker_door_wood_item": {
+      "textures": "textures/items/bunker_door_wood_item"
+    },
+    "bunker_door_item": {
+      "textures": "textures/items/bunker_door_item"
+    }
+  }
+}

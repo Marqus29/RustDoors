@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rust:recipe_security_terminal"
+    },
+    "tags": ["rust_workbench"],
+    "pattern": [
+      "IRI",
+      "ICI",
+      "III"
+    ],
+    "key": {
+      "I": { "item": "minecraft:iron_ingot" },
+      "R": { "item": "minecraft:redstone" },
+      "C": { "item": "minecraft:copper_ingot" }
+    },
+    "unlock": [
+      { "item": "minecraft:iron_ingot" }
+    ],
+    "result": {
+      "item": "rust:security_terminal",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rust:recipe_bunker_door_glass"
+    },
+    "tags": ["rust_workbench"],
+    "pattern": [
+      "CCC",
+      "C#C",
+      "CCC"
+    ],
+	"unlock": [
+      { "item": "minecraft:iron_ingot" }
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:glass"
+      },
+      "#": {
+        "item": "minecraft:iron_block"
+      }
+    },
+    "result": {
+      "item": "rust:bunker_door_glass_item",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rust:recipe_bunker_door_sheet"
+    },
+    "tags": ["rust_workbench"],
+    "pattern": [
+      "IBD",
+      "KND",
+      "IBD"
+    ],
+	"unlock": [
+      { "item": "minecraft:netherite_ingot" }
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_block"
+      },
+      "B": {
+        "item": "minecraft:iron_block"
+      },
+      "K": {
+        "item": "minecraft:iron_block"
+      },
+      "N": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "D": {
+        "item": "minecraft:copper_block"
+      }
+    },
+    "result": {
+      "item": "rust:bunker_door_sheet_item",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rust:recipe_bunker_door_jail"
+    },
+    "tags": ["rust_workbench"],
+    "pattern": [
+      "I I",
+      "I I",
+      "I I"
+    ],
+	"unlock": [
+      { "item": "minecraft:iron_ingot" }
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "rust:bunker_door_jail_item",
+      "count": 1
+    }
+  }
+}

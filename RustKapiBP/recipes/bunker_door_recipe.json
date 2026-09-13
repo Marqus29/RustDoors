@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rust:recipe_bunker_door"
+    },
+    "tags": [ "rust_workbench" ],
+    "pattern": [
+      "I C",
+      "IRC",
+      "I C"
+    ],
+    "unlock": [
+      { "item": "minecraft:iron_block" },
+      { "item": "minecraft:copper_block" },
+      { "item": "minecraft:redstone" }
+    ],
+    "key": {
+      "I": { "item": "minecraft:iron_block" },
+      "C": { "item": "minecraft:copper_block" },
+      "R": { "item": "minecraft:redstone" }
+    },
+    "result": {
+      "item": "rust:bunker_door_item",
+      "count": 1
+    }
+  }
+}
